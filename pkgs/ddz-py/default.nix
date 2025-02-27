@@ -15,8 +15,8 @@ python3Packages.buildPythonApplication rec {
   src = fetchFromGitHub {
     owner = "EarthMessenger";
     repo = "ddz_py";
-    rev = "e18326ddd3ae5b648b423f2b219c8935e02ff485";
-    hash = "sha256-ADElUS8ogaUtId67EBeFJpVwsLwihr9LlO98TvxsZj8=";
+    rev = "b6e044876182980dd59d4d5bdec74268efa0731b";
+    hash = "sha256-+DGSad2WTYUKPurMA/ritf4Bk861oHVgqVmvq9QQ0As=";
   };
 
   client_deluxe = writeText "a.sh" ''
