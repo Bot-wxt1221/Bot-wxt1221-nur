@@ -8,15 +8,15 @@
 
 python3Packages.buildPythonApplication rec {
   pname = "ddz_py";
-  version = "0-unstable-2024-01-20";
+  version = "0-unstable-2025-01-27";
 
   format = "other";
 
   src = fetchFromGitHub {
     owner = "EarthMessenger";
     repo = "ddz_py";
-    rev = "f3121679021057406467f79a10d888c4547809b4";
-    hash = "sha256-2a7ildZ9rT3BbdjeHtCh0jdFulxz8FlmMnO1qytLa1k=";
+    rev = "e18326ddd3ae5b648b423f2b219c8935e02ff485";
+    hash = "sha256-ADElUS8ogaUtId67EBeFJpVwsLwihr9LlO98TvxsZj8=";
   };
 
   client_deluxe = writeText "a.sh" ''
